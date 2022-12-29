@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.main{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(DMBparts/FullBand.jpg);
+    background-size: cover;
+    background-position: center;
+    /* background-attachment: fixed; makes picture remain in the background as the page scrolls */
+}
+.logobar{
+    width: 85%;
+    margin: auto;
+    padding: 35px 0;
+    display: flex;
+}
+.logo{
+    /* width: 450px; */
+    width: 30%;
+    cursor: pointer;
+}
+.content{
+    width: 100%;
+    position: fixed;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    color: rgb(85, 156, 200);
+}
+.content h1{
+    font-size: 70px;
+    margin-top: 80px;
+}
+.content p{
+    margin: 20px auto;
+    font-weight: 100;
+    line-height: 25px;
+    color: mistyrose;
+}
+.SeeThroughButts{
+    width: 200px;
+    padding: 15px 0;
+    text-align: center;
+    margin: 20px 10px;
+    border-radius: 25px;
+    font-weight: bold;
+    border: 2px solid rgb(225, 228, 225);
+    background: transparent;
+    color:rgb(85, 156, 200);
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+}
+.SeeThroughButts span{
+    background: rgba(209, 141, 6, 0.676);
+    height: 100%;
+    width: 0;
+    border-radius: 25px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+}
+.SeeThroughButts:hover span{
+    width: 100%;
+    transition: 1s;
+}
+.SeeThroughButts:hover span{
+    border: none;
+}
+#Dave{
+    height: auto;
+    width: 300px;
+    border-radius: 50%;
+}
+#DaveHeader{
+    font-size: 40px;
+    color: rgb(85, 156, 200);
+}
+#DaveDesc{
+    color: mistyrose;
+    font-size: 17px;
+}
+.bandmates{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 5%;
+}
+.members .bandmates img{
+    height: 4%;
+    width: 180px;
+    border-radius: 50%;
+}
+.bandmatesnames{
+    display: flex;
+    justify-content: space-evenly;
+    transform: translateX(-1%);
+}
+#Steffan{
+    transform: translateX(20%);
+}
+#Jeff{
+    transform: translateX(19%);
+}
