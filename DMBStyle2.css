@@ -10,6 +10,8 @@
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
+    padding-left: 1.5em;
+    padding-right: 1.5em;
 }
 
 .logobar{
@@ -91,19 +93,13 @@
     justify-content: space-evenly;
     margin-top: 5%;
 }
-.members .bandmates img{
-    height: 4%;
+@media screen and (max-width: 1050px) {
+    .bandmates{   
+      flex-direction: column;
+    }
+  }
+  .members .RestOfBand img{
+    height: 180px;
     width: 180px;
     border-radius: 50%;
-}
-.bandmatesnames{
-    display: flex;
-    justify-content: space-evenly;
-    transform: translateX(-1%);
-}
-#Steffan{
-    transform: translateX(20%);
-}
-#Jeff{
-    transform: translateX(19%);
 }
