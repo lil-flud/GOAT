@@ -43,6 +43,7 @@
     font-weight: 100;
     line-height: 25px;
     color: mistyrose;
+    max-width: 900px;
 }
 .SeeThroughButts{
     width: 200px;
